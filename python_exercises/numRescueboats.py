@@ -16,8 +16,7 @@ class Solutions:
             right -= 1
             boats_number += 1
             
-        return boats_number
-    
+        return boats_number    
     
 Object = Solutions()
 print(Object.numRescueboatd([1,2,3],3))
