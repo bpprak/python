@@ -18,6 +18,7 @@ class Solutions:
             
         return boats_number
     
+    
 Object = Solutions()
 print(Object.numRescueboatd([1,2,3],3))
     
