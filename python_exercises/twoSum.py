@@ -1,7 +1,7 @@
-from typing import List
+from typing import List, DefaultDict
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-        m = {}
+        m = DefaultDict(int)
         n = len(nums)
         
         for i in range(0,n):
