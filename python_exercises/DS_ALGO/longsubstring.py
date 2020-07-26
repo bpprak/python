@@ -1,4 +1,4 @@
- class Solution:
+class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         m = {}
         left = 0
@@ -9,10 +9,10 @@
             el = s[right]
             if(el in m):
                 left = m[el]+1
-            m[el] = right
+            m[el] = right 
             ans = max(ans,right-left+1)
             right+=1
         return ans
-    
+
 Object = Solution()
 print(Object.lengthOfLongestSubstring("abcdefabcdefg"))
