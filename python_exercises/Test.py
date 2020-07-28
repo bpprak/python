@@ -1,4 +1,4 @@
-a= [4,3,2,0,2]
+a ="prakash"
 
 for i in a:
     print(i)
