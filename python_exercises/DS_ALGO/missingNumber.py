@@ -1,12 +1,13 @@
 from typing import List
 class Solution:
     def missingNumber(self, nums: List[int]) -> int:
-        currentSum = sum(nums)
         n = len(nums)
-        intendedSum = (n)*(n+1)/2
-
-        return int(intendedSum-currentSum)
+        total = (n+1)*(n+2)/2
+        return int(total - sum(nums))
 
     
 Object = Solution()
-print(Object.missingNumber([4,1,2]))      
+print(Object.missingNumber([1, 2, 4, 6, 3, 7, 8]))      
+
+
+

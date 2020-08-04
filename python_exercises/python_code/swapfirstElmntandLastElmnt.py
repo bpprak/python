@@ -6,12 +6,12 @@ def swapList(arr: List[int]):
     
     return arr
 
-print(swapList([1,3,83,89]))
 
 def swapListwithoutvar(arr: List[int]):
     arr[0], arr[-1] = arr[-1], arr[0]
     return arr
 
 
+print(swapList([1,3,83,89]))
 print(swapListwithoutvar([1,3,83,89]))
     
