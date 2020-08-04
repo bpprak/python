@@ -15,4 +15,7 @@ class Solution:
         return ans
 
 Object = Solution()
-print(Object.lengthOfLongestSubstring("abcdefabcdefg"))
+print(Object.lengthOfLongestSubstring("abaa"))
+
+
+

@@ -8,7 +8,7 @@ class Solutions:
         while(i < len(A) and A[i] > A[i-1]):
             i += 1
             
-        if(i ==1 or i == len(A)):
+        if(i == len(A)):
             return False
         
         while(i < len(A) and A[i] < A[i-1]):
@@ -19,4 +19,8 @@ class Solutions:
 Object = Solutions()
 
 print(Object.validMountainArray([1,2,4,6,3,2]))
+print(Object.validMountainArray([0,5,5]))
+print(Object.validMountainArray([2,3,4]))
         
+        
+#increasing sequence until some point of array and then decrease seqience, like mountain shape
